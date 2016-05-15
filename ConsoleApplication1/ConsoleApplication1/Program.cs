@@ -1,18 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using System.Windows.Forms;
 namespace ConsoleApplication1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Console 
-            Console.WriteLine("HelloWorld");
-            Console.ReadLine();
+            //use the Windows Form dynamic Link library
+            Form form = new Form();
+            form.ShowDialog();
         }
     }
 }
